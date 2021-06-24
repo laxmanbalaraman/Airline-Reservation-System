@@ -1,0 +1,175 @@
+/*body and header*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background:coral;
+  background-position: center;
+  object-position: center;
+  background-attachment: fixed;
+}
+#nav-bar{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+#box .container{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)) !important;
+  border-radius: 5px;
+  border: 1px black;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  margin-bottom: 20px;
+}
+.navbar{
+  background-color: #3f2b96 !important;
+  background: transparent;
+  border-color: transparent;
+  padding: 0 !important;
+}
+ .navbar-brand img{
+height: 40px;
+padding-left: 30px;
+padding-right: 10px;
+}
+.navbar-brand{
+  color: white !important;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+  color:white  !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+#nav-bar ul li a:hover{
+  color: #140459!important;
+  transition: .3s;
+}
+.nav-item i{
+  padding: 5px;
+}
+/*end herder*/
+
+/*content*/
+.container{
+  margin-top:30px;
+}
+.d-flex button{
+  margin: 1.5em 0.6em;
+  padding: 0.5em 2.4em;
+}
+@media (max-width:1000px) {
+  .d-flex button{
+    margin: 0.3em 0.3em !important;
+    padding: 0.2em 0.2em !important;
+  }
+}
+table{
+  margin: 1em 5em !important;
+  border-radius: 2px !important;
+}
+
+table .btnedit{
+  color: #3f2b96 !important;
+  cursor: pointer;
+}
+ .traveledit{
+  color: #3f2b96 !important;
+  cursor: pointer;
+}
+
+/*message alerts*/
+.alert{
+padding: 0.3rem 1.25rem 0rem 1.25rem !important;
+text-align: center !important;
+}
+/*Radio buttons*/
+
+   input[type=radio],
+   input.radio {
+
+     margin: 2px 10px 0 0 10px;
+   }
+/*footer*/
+.footer{
+  background: #000;
+  padding: 30px 0 0px 0;
+  color: #eee;
+  font-size: 14px;
+}
+ .footer-info h3{
+font-family:Brush Script MT;
+letter-spacing: 3px;
+font-size: 30px;
+font-weight: 1000;
+border-left: 4px coral;
+}
+.footer-social a{
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.footer-social a:hover{
+  color: #ffe600
+}
+.email{
+  border: 0;
+  padding: 6px;
+  width: 65%;
+}
+.submit{
+  background: #ffe600;
+  border: 2px #ffe600;
+  width: 30%;
+  padding: 6px;
+  text-align: center;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.submit:hover{
+  background: black;
+  color: #ffe600;
+}
+.footer-links i{
+  padding-right: 10px;
+}
+.footer-links li{
+  list-style: none;
+}
+.footer-links a{
+  color: #fff;
+  border: none;
+  padding-bottom: 15px;
+}
+.footer-links a:hover{
+  color: #ffe600;
+  text-decoration: none;
+}
+.footer .box{
+  background: #141414;
+  text-align:center;
+  padding: 15px;
+}
+.footer .box i{
+  color: #ffe600;
+}
